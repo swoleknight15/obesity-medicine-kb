@@ -467,7 +467,7 @@ document.getElementById('search').addEventListener('input', e => {
 // ——— NAVIGATION ———
 const sectionTitles = {
   aom:'Anti-Obesity Medications', offlabel:'Off-Label Options', concomitant:'Concomitant Medications', phenotype:'Phenotype Matching',
-  trials:'Trial Data (STEP & SURMOUNT)', pearls:'Clinical Pearls',
+  trials:'Trial Data (STEP & SURMOUNT)',
   disease:'Disease of Obesity', classification:'Classification & Staging',
   adiposopathy:'Adiposopathy & Fat Mass Disease', metabolic:'Metabolic Adaptation',
   hxpe:'History & Physical Exam', labs:'Labs & Diagnostics', bodycomp:'Body Composition',
