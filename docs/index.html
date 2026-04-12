@@ -55,7 +55,7 @@
   <div class="nav-item" data-section="notes"><span class="icon">📝</span>Note Templates<span class="badge">new</span></div>
   <div class="nav-item" data-section="planner"><span class="icon">🧭</span>Plan Builder<span class="badge">new</span></div>
   <div class="nav-item" data-section="clinic"><span class="icon">🏥</span>Clinic Setup & SOPs<span class="badge">✓</span></div>
-  <div class="nav-item" data-section="billing"><span class="icon">💰</span>Billing & Coding<span class="badge soon">soon</span></div>
+  <div class="nav-item" data-section="billing"><span class="icon">💰</span>Billing & Coding<span class="badge">✓</span></div>
 
   <div class="sidebar-section">Source Library</div>
   <div class="nav-item" data-section="pdfs"><span class="icon">📚</span>PDF Library<span class="badge">6</span></div>
@@ -3917,7 +3917,217 @@
       </div>
     </div>
     <div class="section-panel" id="panel-billing" style="display:none">
-      <div class="coming-soon"><div class="cs-icon">💰</div><h3>Billing & Coding</h3><p>Upload a billing lecture or notes to fill in this section. Topics: ICD-10 codes (E66.01, E66.09, E66.8, E66.9 — avoid E66.0 directly), CPT codes for obesity counseling, medical necessity documentation, prior authorization for AOMs (GLP-1 RAs), insurance coverage landscape, patient assistance programs.</p></div>
+      <div class="note">Source: <em>Billing and Coding for Obesity in 2025</em> — Angela Golden, DNP, FNP-C, FAANP, FOMA, FTOS · OMA 2025 Webinar Series · NP Obesity Treatment Center, Flagstaff, AZ</div>
+
+      <p class="sh">Obesity ICD-10 Codes</p>
+      <div class="grid2" style="margin-bottom:20px">
+        <div>
+          <div class="slabel" style="margin-bottom:8px">Core obesity codes</div>
+          <table class="t">
+            <thead><tr><th>Code</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td><strong>E66.01</strong></td><td>Morbid/severe obesity due to excess calories</td></tr>
+              <tr><td><strong>E66.1</strong></td><td>Drug-induced obesity</td></tr>
+              <tr><td><strong>E66.2</strong></td><td>Morbid/severe obesity with alveolar hypoventilation</td></tr>
+              <tr><td><strong>E66.3</strong></td><td>Overweight</td></tr>
+              <tr><td><strong>E66.8</strong></td><td>Obesity, other</td></tr>
+              <tr><td><strong>E66.9</strong></td><td>Obesity, unspecified</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <div class="slabel" style="margin-bottom:8px">New October 2024 — obesity class codes</div>
+          <table class="t">
+            <thead><tr><th>Code</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td><strong>E66.811</strong></td><td>Obesity Class 1</td></tr>
+              <tr><td><strong>E66.812</strong></td><td>Obesity Class 2</td></tr>
+              <tr><td><strong>E66.813</strong></td><td>Obesity Class 3</td></tr>
+              <tr><td><strong>E66.89</strong></td><td>Other obesity not elsewhere classified</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="warn" style="margin-bottom:20px"><strong>Avoid E66.0 ("due to excess calories")</strong> — it implies patient blame and is stigmatizing. Use the new class-specific codes (E66.811–E66.813) or E66.89 instead. The new codes are designed to improve coding accuracy and reduce weight bias in claims data.</div>
+
+      <p class="sh">BMI Codes (Z68.xx)</p>
+      <div class="grid2" style="margin-bottom:20px">
+        <div>
+          <div class="slabel" style="margin-bottom:8px">Adults — Z68.1 through Z68.45</div>
+          <table class="t">
+            <thead><tr><th>Code</th><th>BMI range</th></tr></thead>
+            <tbody>
+              <tr><td>Z68.1</td><td>BMI 19.9 or less</td></tr>
+              <tr><td>Z68.30</td><td>30.0–30.9 kg/m²</td></tr>
+              <tr><td>Z68.32</td><td>32.0–32.9 kg/m²</td></tr>
+              <tr><td>Z68.34</td><td>34.0–34.9 kg/m²</td></tr>
+              <tr><td>Z68.38</td><td>38.0–38.9 kg/m²</td></tr>
+              <tr><td>Z68.43</td><td>50.0–59.9 kg/m²</td></tr>
+              <tr><td>Z68.45</td><td>70 or greater</td></tr>
+            </tbody>
+          </table>
+          <div class="note" style="margin-top:10px;font-size:13px">Pattern: Z68.(tens digit)(units digit) up to BMI 39; coding format changes after BMI 40.</div>
+        </div>
+        <div>
+          <div class="slabel" style="margin-bottom:8px">Pediatrics — new October 2024</div>
+          <table class="t">
+            <thead><tr><th>Code</th><th>Pediatric BMI threshold</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Z68.54</strong></td><td>95th–&lt;120% of the 95th percentile</td></tr>
+              <tr><td><strong>Z68.55</strong></td><td>120%–&lt;140% of the 95th percentile</td></tr>
+              <tr><td><strong>Z68.56</strong></td><td>≥140% of the 95th percentile</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <p class="sh">New October 2024 — Social & contextual codes</p>
+      <table class="t" style="margin-bottom:20px">
+        <thead><tr><th>Code</th><th>Description</th><th>Clinical use</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Z15.2</strong></td><td>Genetic susceptibility to obesity</td><td>Document when family history or genetic testing supports a heritable component</td></tr>
+          <tr><td><strong>Z59.71</strong></td><td>Insufficient health insurance coverage</td><td>Supports prior auth documentation and medical necessity for AOMs</td></tr>
+          <tr><td><strong>Z55.6</strong></td><td>Problems related to health literacy</td><td>Flags patients needing simplified counseling; supports extended visit time</td></tr>
+          <tr><td><strong>Z58.89</strong></td><td>Other problems related to physical environment</td><td>Food desert, unsafe neighborhood — contextualizes weight management barriers</td></tr>
+        </tbody>
+      </table>
+
+      <p class="sh">Other useful ICD-10 codes</p>
+      <div class="grid2" style="margin-bottom:20px">
+        <div>
+          <div class="slabel" style="margin-bottom:8px">Screening codes</div>
+          <table class="t">
+            <thead><tr><th>Code</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td>Z13.1</td><td>Screening for diabetes mellitus</td></tr>
+              <tr><td>Z13.2</td><td>Screening for metabolic &amp; endocrine disorders</td></tr>
+              <tr><td>Z13.21</td><td>Screening for nutritional disorder</td></tr>
+              <tr><td>Z13.29</td><td>Screening for suspected endocrine disorder (incl. thyroid)</td></tr>
+              <tr><td>Z13.228</td><td>Screening for lipoid disorders</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <div class="slabel" style="margin-bottom:8px">Counseling codes</div>
+          <table class="t">
+            <thead><tr><th>Code</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td>Z71.3</td><td>Dietary counseling and surveillance</td></tr>
+              <tr><td>Z71.89</td><td>Other specified counseling (exercise counseling)</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <p class="sh">ICD-10 Code Sequencing Rules</p>
+      <div class="note" style="margin-bottom:12px">ICD-10 codes are sequenced — order matters for compliance. <strong>The reason for the visit is the first listed code.</strong> Coexisting conditions and comorbidities follow. If the visit is almost exclusively obesity-focused, obesity is listed first.</div>
+      <div class="note"><strong>Example — obesity-focused visit:</strong><br>
+        CPT 99215 &nbsp;·&nbsp; E66.812 Obesity Class 2 &nbsp;·&nbsp; E11.65 T2DM with hyperglycemia &nbsp;·&nbsp; I10.0 Hypertension &nbsp;·&nbsp; F33.0 Depression &nbsp;·&nbsp; E78.1 Hypertriglyceridemia &nbsp;·&nbsp; Z71.3 Dietary Counseling
+      </div>
+
+      <p class="sh">E&M Time-Based Coding — 2024 Update</p>
+      <div class="note" style="margin-bottom:12px"><strong>Effective January 1, 2024:</strong> CPT codes 99202–99205 and 99212–99215 no longer have time <em>ranges</em> — each code now has a single minimum time that must be <strong>met or exceeded</strong> on the date of the encounter. Time includes all related activities on that date, not just face-to-face time.</div>
+      <div class="grid2" style="margin-bottom:20px">
+        <div>
+          <div class="slabel" style="margin-bottom:8px">New patient codes (99202–99205)</div>
+          <table class="t">
+            <thead><tr><th>Code</th><th>Minimum minutes</th></tr></thead>
+            <tbody>
+              <tr><td>99202</td><td>15 min</td></tr>
+              <tr><td>99203</td><td>30 min</td></tr>
+              <tr><td>99204</td><td>45 min</td></tr>
+              <tr><td>99205</td><td>60 min</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <div class="slabel" style="margin-bottom:8px">Established patient codes (99212–99215)</div>
+          <table class="t">
+            <thead><tr><th>Code</th><th>Minimum minutes</th></tr></thead>
+            <tbody>
+              <tr><td>99212</td><td>10 min</td></tr>
+              <tr><td>99213</td><td>20 min</td></tr>
+              <tr><td>99214</td><td>30 min</td></tr>
+              <tr><td>99215</td><td>40 min</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="note" style="margin-bottom:12px"><strong>What counts toward total time:</strong> Reviewing labs/tests before the visit · Obtaining or reviewing history · Performing the exam/evaluation · Counseling and educating the patient/family · Ordering medications, tests, procedures · Communicating with other HCPs (when not billed separately) · Documenting in the EHR</div>
+      <div class="warn"><strong>Best practice for documentation:</strong> Record start and stop times for each activity component. Example for 99215 (40+ min needed):<br>
+        9:05–9:10 reviewed labs and food logs (5 min) &nbsp;·&nbsp; 9:10–9:40 visit and education (30 min) &nbsp;·&nbsp; 9:40–9:50 documentation, orders, refills (10 min) = <strong>45 minutes → 99215</strong>
+      </div>
+
+      <p class="sh">Prolonged Service Codes</p>
+      <div class="note" style="margin-bottom:12px">AMA and CMS are <strong>not in agreement</strong> on prolonged service thresholds. Commercial insurers often use lower time thresholds and a different add-on code. Always verify with your payer.</div>
+      <table class="t" style="margin-bottom:20px">
+        <thead><tr><th>Base CPT</th><th>Base time</th><th>CPT add-on 99417 (AMA)</th><th>CMS add-on G2212</th></tr></thead>
+        <tbody>
+          <tr><td>99205</td><td>60 min</td><td>Add 99417 at 75 min</td><td>Add G2212 at 89 min (must exceed max by ≥15 min; range 60–74 min)</td></tr>
+          <tr><td>99215</td><td>40 min</td><td>Add 99417 at 55 min</td><td>Add G2212 at 69 min (must exceed max by ≥15 min; range 40–54 min)</td></tr>
+        </tbody>
+      </table>
+
+      <p class="sh">Chronic Care Management (CCM)</p>
+      <div class="note" style="margin-bottom:12px">CPT codes <strong>99490, 99487, 99489</strong> — billed per calendar month for clinical staff time directed by a physician or qualified HCP. Obesity patients with multiple comorbidities routinely qualify.</div>
+      <table class="t" style="margin-bottom:20px">
+        <thead><tr><th>Requirement</th><th>Details</th></tr></thead>
+        <tbody>
+          <tr><td>Chronic condition threshold</td><td>2 or more chronic conditions expected to last ≥12 months or until death</td></tr>
+          <tr><td>Risk requirement</td><td>Conditions place patient at significant risk of death, acute exacerbation, or functional decline</td></tr>
+          <tr><td>Care plan</td><td>Comprehensive care plan established, implemented, revised, or monitored</td></tr>
+          <tr><td>Billing basis</td><td>Time-based per month by the billing practitioner</td></tr>
+        </tbody>
+      </table>
+
+      <p class="sh">Remote Patient Monitoring (RPM)</p>
+      <div class="note" style="margin-bottom:12px">CPT codes <strong>99453, 99454, 99457, 99458</strong> — digital technologies capture medical data from patients and transmit to the provider. Can earn ~$120–$210/month per patient. Payable by Medicare, 23 state Medicaid programs, and many commercial payers.</div>
+      <table class="t" style="margin-bottom:12px">
+        <thead><tr><th>Code</th><th>What it covers</th></tr></thead>
+        <tbody>
+          <tr><td>99453</td><td>Initial patient enrollment and device setup/education</td></tr>
+          <tr><td>99454</td><td>Monthly base payment for device management and patient readings</td></tr>
+          <tr><td>99457</td><td>First 20 minutes of care management per month</td></tr>
+          <tr><td>99458</td><td>Additional 20-minute increment per month</td></tr>
+          <tr><td>99473</td><td>Self-monitored BP device training (SMBP, validated device, includes calibration)</td></tr>
+          <tr><td>99474</td><td>BP twice daily (2 readings, 1 min apart, AM and PM); minimum 12 readings per billing period; must be communicated back to practice</td></tr>
+        </tbody>
+      </table>
+
+      <p class="sh">Case Studies</p>
+      <div class="note" style="margin-bottom:16px">
+        <div class="slabel" style="margin-bottom:8px">Case 1 — Adult established patient, 70-minute visit</div>
+        Reviewed labs before visit (5 min) · Visit addressed obesity, DM, and depression (15 min) · Phone call with psychiatric provider (20 min) · Ordered 2 new meds, one requiring prior auth (15 min) · Called patient re: medication changes (15 min) = <strong>70 minutes</strong><br><br>
+        <strong>ICD-10:</strong> E66.813 Obesity Class 3 · E11.65 T2DM with hyperglycemia · I10.0 HTN · F33.0 MDD · E78.1 Hypertriglyceridemia<br>
+        <strong>Answer: 99215 + 99417 × 2</strong> (70 min exceeds 99215 base of 40 min by 30 min = two 99417 add-ons)
+      </div>
+      <div class="note" style="margin-bottom:16px">
+        <div class="slabel" style="margin-bottom:8px">Case 2 — Adult, migraine + asthma + obesity, 25-minute visit</div>
+        Review of neurology report (5 min) · Visit (15 min) · Documentation and plan sent to patient (5 min) = <strong>25 minutes</strong><br><br>
+        <strong>ICD-10:</strong> G43.10 Migraine with aura · J45.990 Exercise-induced bronchospasm · E66.812 Obesity Class 2<br>
+        <strong>By time:</strong> 99213 (25 min meets 20-min threshold but not 30 min for 99214)<br>
+        <strong>By MDM: 99214</strong> — 2+ stable chronic conditions + review of labs ×2 + neurologist report + prescription monitoring. <em>Use MDM here; it yields a higher code.</em>
+      </div>
+      <div class="note">
+        <div class="slabel" style="margin-bottom:8px">Case 3 — Pediatric, Class 3 obesity + prediabetes + hypertriglyceridemia, 35-minute visit</div>
+        Review of food logs (5 min) · Visit (20 min) · Documentation and plan sent (10 min) = <strong>35 minutes</strong><br><br>
+        <strong>ICD-10:</strong> E66.813 Class 3 Obesity · R73.03 Prediabetes · E78.1 Hypertriglyceridemia · Z71.3 Dietary Counseling · Z71.89 Exercise Counseling · Z68.56 BMI ≥140% of the 95th percentile<br>
+        <strong>Answer: 99214</strong> (35 min meets 30-min threshold)
+      </div>
+
+      <p class="sh">Practice Pearls</p>
+      <div class="warn" style="margin-bottom:12px"><strong>Avoid "excess calories" codes.</strong> E66.0 and E66.01 assign blame to the patient and do not reflect the current disease model. Use E66.811–E66.813 (class codes) or E66.89 for all obesity diagnoses.</div>
+      <div class="note" style="margin-bottom:12px">
+        <ul>
+          <li><strong>With complex obesity patients, BMI code alone often doesn't make the diagnosis list</strong> — the comorbidities tell the real story. Document BMI in the note; list the clinical diagnoses on the claim.</li>
+          <li><strong>Time vs. MDM:</strong> You can use whichever basis (time or medical decision-making) produces the higher code. Calculate both and bill the one that's supported.</li>
+          <li><strong>Add counseling codes</strong> (Z71.3, Z71.89) whenever dietary or exercise counseling is performed — these support medical necessity and expand the picture of services provided.</li>
+          <li><strong>CCM is frequently unbilled</strong> in obesity practices. Any patient with obesity + one other chronic condition likely qualifies. This is recurring monthly revenue for care you're already providing.</li>
+          <li><strong>RPM is payor-dependent</strong> — verify RPM coverage before enrolling patients. Medicare covers it; Medicaid and commercial coverage varies by state and plan.</li>
+          <li><strong>The new social context codes</strong> (Z59.71, Z55.6, Z58.89) are valuable for prior authorization letters — they document why treatment is medically necessary and what environmental barriers exist.</li>
+        </ul>
+      </div>
+
     </div>
 
     <!-- ===== SECTION: NOTE TEMPLATES ===== -->
