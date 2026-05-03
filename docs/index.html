@@ -41,6 +41,9 @@
   <div class="nav-item" data-section="phenotype"><span class="icon">🎯</span>Phenotype Matching</div>
   <div class="nav-item" data-section="trials"><span class="icon">📊</span>Trial Data (STEP etc.)</div>
 
+  <div class="sidebar-section">Special Populations</div>
+  <div class="nav-item" data-section="pediatric"><span class="icon">👶</span>Pediatric Obesity<span class="badge">✓</span></div>
+
   <div class="sidebar-section">Comorbidities</div>
   <div class="nav-item" data-section="diabetes"><span class="icon">📈</span>Diabetes & Glucose<span class="badge">✓</span></div>
   <div class="nav-item" data-section="cardio"><span class="icon">❤️</span>Cardiovascular Disease<span class="badge">✓</span></div>
@@ -5261,6 +5264,114 @@ Patient questions addressed. Plan discussed and agreed upon.</pre>
 
       </div><!-- /note-template-wrap -->
     </div><!-- /panel-notes -->
+
+    <!-- ===== SECTION: PEDIATRIC OBESITY ===== -->
+    <div class="section-panel" id="panel-pediatric" style="display:none">
+      <h2>Pediatric Obesity</h2>
+      <p class="note">Source: Empowering Comprehensive Obesity Care from Youth to Adulthood — OMA 2025</p>
+
+      <h3>Diagnosis by Age</h3>
+      <table class="t">
+        <thead><tr><th>Age</th><th>Metric</th><th>Overweight</th><th>Obesity</th><th>Severe Obesity</th></tr></thead>
+        <tbody>
+          <tr><td>&lt; 2 years</td><td>Weight-for-length (WHO)</td><td>≥ 85th %ile</td><td>≥ 95th %ile</td><td>—</td></tr>
+          <tr><td>2–18 years</td><td>BMI percentile (CDC)</td><td>85th–&lt;95th %ile</td><td>≥ 95th %ile</td><td>≥ 120% of 95th %ile <em>or</em> BMI ≥ 35</td></tr>
+        </tbody>
+      </table>
+
+      <h3>AAP 2023 Paradigm Shift</h3>
+      <div class="note"><strong>No watchful waiting.</strong> AAP 2023 guidelines recommend early, intensive intervention — waiting for children to "grow out of it" is not supported by evidence. Treat at the earliest clinically appropriate opportunity.</div>
+
+      <h3>Age-Based Evaluation Framework</h3>
+      <table class="t">
+        <thead><tr><th>Age Group</th><th>Key Evaluation Focus</th></tr></thead>
+        <tbody>
+          <tr><td>0–2 years</td><td>Feeding history, growth trajectory, parental BMI, early risk factors</td></tr>
+          <tr><td>2–5 years</td><td>Dietary patterns, screen time, sleep, family environment</td></tr>
+          <tr><td>6–11 years</td><td>School environment, physical activity, early complication screening</td></tr>
+          <tr><td>12–18 years</td><td>Full comorbidity workup, psychosocial assessment, medication eligibility, surgical candidacy</td></tr>
+        </tbody>
+      </table>
+
+      <h3>Complication Screening by Age</h3>
+      <table class="t">
+        <thead><tr><th>Complication</th><th>Screening Start Age</th><th>Key Threshold</th></tr></thead>
+        <tbody>
+          <tr><td>Dyslipidemia</td><td>2 years (fasting lipid panel)</td><td>Per NCEP pediatric cutoffs</td></tr>
+          <tr><td>MASLD / NAFLD</td><td>9 years</td><td>ALT: male ≥ 52 U/L, female ≥ 44 U/L = abnormal</td></tr>
+          <tr><td>Prediabetes / T2DM</td><td>10 years (or onset of puberty)</td><td>A1c 6.0–6.4% = prediabetes; ≥ 6.5% = T2DM</td></tr>
+          <tr><td>OSA</td><td>Any age if symptoms present</td><td>AHI &gt; 1 event/hr = diagnostic in children (lower threshold than adults)</td></tr>
+          <tr><td>Hypertension</td><td>3 years</td><td>Age/sex/height-specific normative tables</td></tr>
+          <tr><td>PCOS</td><td>After menarche</td><td>Rotterdam criteria adapted for adolescents</td></tr>
+        </tbody>
+      </table>
+
+      <div class="section-divider"></div>
+
+      <h3>Genetic Obesity — Red Flags</h3>
+      <div class="warn">Suspect monogenic or syndromic obesity when: early-onset severe obesity (&lt; 5 years), hyperphagia out of proportion to environment, family history of severe obesity, dysmorphic features, developmental delay, or hypogonadism.</div>
+      <table class="t">
+        <thead><tr><th>Gene / Pathway</th><th>Presentation</th><th>Treatment Implication</th></tr></thead>
+        <tbody>
+          <tr><td>MC4R (most common)</td><td>Hyperphagia, tall stature, hyperinsulinemia</td><td>Setmelanotide (MC4R pathway agonist)</td></tr>
+          <tr><td>POMC / PCSK1</td><td>Early-onset obesity, adrenal insufficiency, red hair</td><td>Setmelanotide</td></tr>
+          <tr><td>LEPR</td><td>Severe hyperphagia, hypogonadism, immune dysfunction</td><td>Setmelanotide</td></tr>
+          <tr><td>Prader-Willi</td><td>Hypotonia at birth, hyperphagia, cognitive impairment</td><td>GLP-1 RA (off-label); multidisciplinary</td></tr>
+          <tr><td>Bardet-Biedl</td><td>Rod-cone dystrophy, polydactyly, renal anomalies</td><td>Setmelanotide (FDA-approved for BBS)</td></tr>
+        </tbody>
+      </table>
+
+      <div class="section-divider"></div>
+
+      <h3>Pediatric Pharmacotherapy</h3>
+      <table class="t">
+        <thead><tr><th>Medication</th><th>Min Age</th><th>FDA Status</th><th>Key Data / Notes</th></tr></thead>
+        <tbody>
+          <tr><td>Semaglutide (Wegovy)</td><td>≥ 12 years</td><td>FDA-approved</td><td>STEP TEENS: −16.1% body weight vs −0.6% placebo; once weekly SC</td></tr>
+          <tr><td>Liraglutide (Saxenda)</td><td>≥ 12 years</td><td>FDA-approved</td><td>~4.5% weight reduction vs placebo; daily SC injection</td></tr>
+          <tr><td>Phentermine / Topiramate (Qsymia)</td><td>≥ 12 years</td><td>FDA-approved (2022)</td><td>~7% weight reduction; teratogenic — contraception required in females</td></tr>
+          <tr><td>Orlistat (Xenical/Alli)</td><td>≥ 12 years</td><td>FDA-approved</td><td>GI side effects limit adherence; modest ~3% weight benefit</td></tr>
+          <tr><td>Metformin</td><td>≥ 10 years</td><td>Off-label for obesity</td><td>Modest weight effect; preferred when insulin resistance or prediabetes present</td></tr>
+          <tr><td>Setmelanotide (Imcivree)</td><td>≥ 6 years</td><td>FDA-approved (genetic)</td><td>For POMC, PCSK1, LEPR deficiency, Bardet-Biedl syndrome; ~20–25% weight loss in trials</td></tr>
+        </tbody>
+      </table>
+      <div class="note">Tirzepatide and other dual/triple agonists are not yet FDA-approved for pediatric obesity as of 2025; trials are ongoing.</div>
+
+      <div class="section-divider"></div>
+
+      <h3>Adolescent Bariatric Surgery</h3>
+      <div class="grid2">
+        <div>
+          <strong>Eligibility Criteria</strong>
+          <ul>
+            <li>Age ≥ 13 years (no minimum age mandate from ASMBS for severe cases)</li>
+            <li>BMI ≥ 35 with major comorbidity <em>or</em> BMI ≥ 40</li>
+            <li>Tanner stage is NOT required to be complete</li>
+            <li>Failure of ≥ 6 months supervised lifestyle program</li>
+            <li>Psychosocial evaluation clearance</li>
+            <li>Family support and commitment to follow-up</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Outcomes (Teen-LABS)</strong>
+          <ul>
+            <li>RYGB: ~28% total body weight loss at 3 years</li>
+            <li>Sleeve gastrectomy: ~26% total body weight loss at 3 years</li>
+            <li>T2DM remission: ~95% at 5 years (RYGB)</li>
+            <li>Hypertension remission: ~74%</li>
+            <li>Dyslipidemia remission: ~66%</li>
+            <li>Bone density monitoring required (DEXA)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="warn">Growth plate concerns are largely theoretical — studies show normal height outcomes post-surgery in adolescents. However, micronutrient monitoring is critical given ongoing growth demands.</div>
+
+      <div class="section-divider"></div>
+
+      <h3>Transition to Adult Care</h3>
+      <div class="note">Planned transition from pediatric to adult obesity medicine at 18–21 years. Key handoff elements: treatment history summary, current medications, surgical history if applicable, comorbidity status, psychosocial supports, and ongoing monitoring schedule.</div>
+
+    </div><!-- /panel-pediatric -->
 
   </div><!-- /content -->
 </div><!-- /main -->
